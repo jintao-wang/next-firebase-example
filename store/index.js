@@ -1,6 +1,6 @@
 import Model from './model';
 
-export const testStore = new Model({
+export const loginStore = new Model({
   initialState: {
     isLogin: false,
   },

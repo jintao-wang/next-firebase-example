@@ -1,9 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import Top from 'components/layout/top';
 
 export default function Home() {
   return (
-    <ContainerSC />
+    <ContainerSC>
+      <Top />
+    </ContainerSC>
   );
 }
 

@@ -8,10 +8,15 @@
     "build:test": "NODE_ENV='test' next build",
     "build:export": "next build && next export",
     "build:test:export": "NODE_ENV='test' next build && next export",
+    "emulator:start": "firebase emulators:start",
+    "emulator:import:start": "firebase emulators:start --import=./emulators",
+    "emulator-export": "firebase emulators:export ./emulators",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "firebase": "^9.6.1",
+    "immer": "^9.0.7",
     "next": "11.1.2",
     "prop-types": "^15.7.2",
     "react": "17.0.2",
